@@ -3,10 +3,10 @@
 using namespace std;
 int main()
 {
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "RUS");
     int a, b, c;
 
-    cout << "Ââåäèòå 3 ÷èñëà: ";
+    cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ 3 Ã·Ã¨Ã±Ã«Ã : ";
     cin >> a >> b >> c;
 
     int max = a;
@@ -20,7 +20,7 @@ int main()
         max = c;
     }
 
-    cout << "Ìàêñèìàëüíîå ÷èñëî: " << max << endl;
+    cout << "ÃŒÃ ÃªÃ±Ã¨Ã¬Ã Ã«Ã¼Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®: " << max << endl;
 
     return 0;
 }
